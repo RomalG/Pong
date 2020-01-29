@@ -10,7 +10,7 @@ public class BallController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D> ();
 
-        rb.velocity = new Vector2(5f, 5f);
+        rb.velocity = new Vector2(9f, 9f);
     }
 
     // Update is called once per frame
