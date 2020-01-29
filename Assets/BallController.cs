@@ -16,6 +16,13 @@ public class BallController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(this.transform.position.x >= 23f)
+        {
+            this.transform.position=new Vector3(0f, 0f, 0f);
+        }
+        if(this.transform.position.x <= -23f)
+        {
+            this.transform.position = new Vector3(0f, 0f, 0f);
+        }
     }
 }
